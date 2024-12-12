@@ -9,8 +9,38 @@
 html, body {
 	font-family: "Montserrat", sans-serif;
 	font-size: 16px;
-	font-weight: 500;
+	font-weight: 400;
 	color: $white;
 	background: $black;
 }
 
+em {
+	font-style: normal;
+	color: $main;
+}
+
+// container
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+// btn
+.btn {
+	display: inline-flex;
+	margin-top: calc(var(--index) * 1);
+	--button-color: $main;
+	padding: 15px 40px;
+	background-color: transparent;
+	font-size: 14px;
+	border: 1px solid $white;
+	border-radius: 25px;
+	color: $white;
+	cursor: pointer;
+	transition: border .4s;
+
+	&:hover {
+		border: 1px solid $main;
+	}
+}
