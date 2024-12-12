@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+@import "./reset.scss";
+@import "./variables.scss";
+@import "./header.scss";
+@import "./swiper.scss";
+@import "./footer.scss";
+
+html, body {
+	font-family: "Montserrat", sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	color: $white;
+	background: $black;
+}
+
