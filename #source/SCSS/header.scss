@@ -1,0 +1,43 @@
+.header {
+	padding: 15px 0;
+	position: absolute;
+	width: 100%;
+	z-index: 10;
+
+	& .container {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	& a {
+		color: $white;
+	}
+
+	.header-logo {
+		margin-right: auto;
+
+		.header-logo__link {
+			font-size: 24px;
+			text-transform: uppercase;
+		}
+	}
+
+	.header-nav {
+		.header-list {
+			display: flex;
+
+			.header-list__item {
+				padding: 10px;
+				text-transform: uppercase;
+				text-decoration-color: $main;
+				transition: all .4s;
+
+				&:hover {
+					text-decoration: underline;
+					text-decoration-color: $main;
+				}
+			}
+		}
+	}
+}
